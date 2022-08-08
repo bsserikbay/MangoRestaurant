@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E45E5952-463E-4BD2-8D6E-684BACFB79C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Servces.ProductAPI", "Mango.Servces.ProductAPI\Mango.Servces.ProductAPI.csproj", "{7BD4055C-743E-4C5E-BC6F-6BEE515684C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.Identity", "Mango.Services.Identity\Mango.Services.Identity.csproj", "{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{682255B9-FAC3-4F3D-A33C-6AD750D21004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mongo.Web\Mango.Web.csproj", "{3B235CE9-6261-4845-BDBD-EDED67A6B09F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD4055C-743E-4C5E-BC6F-6BEE515684C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD4055C-743E-4C5E-BC6F-6BEE515684C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD4055C-743E-4C5E-BC6F-6BEE515684C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD4055C-743E-4C5E-BC6F-6BEE515684C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B235CE9-6261-4845-BDBD-EDED67A6B09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B235CE9-6261-4845-BDBD-EDED67A6B09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B235CE9-6261-4845-BDBD-EDED67A6B09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B235CE9-6261-4845-BDBD-EDED67A6B09F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BD4055C-743E-4C5E-BC6F-6BEE515684C8} = {E45E5952-463E-4BD2-8D6E-684BACFB79C5}
+		{E2EFE3BA-2356-43A6-B79E-AB2CC94287F0} = {E45E5952-463E-4BD2-8D6E-684BACFB79C5}
+		{3B235CE9-6261-4845-BDBD-EDED67A6B09F} = {682255B9-FAC3-4F3D-A33C-6AD750D21004}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF4A23F-2DBC-415F-86DF-D61A9EA81B83}
+	EndGlobalSection
+EndGlobal
