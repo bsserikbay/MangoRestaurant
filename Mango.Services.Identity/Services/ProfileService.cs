@@ -41,6 +41,7 @@ namespace Mango.Services.Identity.Services
                 foreach (var rolename in roles)
                 {
                     claims.Add(new Claim(JwtClaimTypes.Role, rolename));
+
                     if (_roleManager.SupportsRoleClaims)
                     {
                         IdentityRole role = await _roleManager.FindByNameAsync(rolename);

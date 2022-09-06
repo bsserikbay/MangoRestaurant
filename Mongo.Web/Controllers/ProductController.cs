@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Mango.Web.Models;
 using Mango.Web.Services.IServices;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Mango.Web.Models.Dto;
 
 namespace Mango.Web.Controllers
 {
@@ -74,6 +74,7 @@ namespace Mango.Web.Controllers
             }
             return View(model);
         }
+
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> ProductDelete(int productId)
         {
